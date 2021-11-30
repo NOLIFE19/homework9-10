@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* start header */
+  .header{
+    background-image: url(../images/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size:cover 
+}
+.header::after{
+  content: "";
+  background: rgb(0 0 0 / 50%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  height: 324px;
+  width: 100%;
+  z-index: -1;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;  
+    justify-content: space-between;
+    
+}
+
+.nav-li {
+    
+    display: inline-block;
+    margin: 20px 30px;
+}
+.nav-a{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    transition: 0.5s;
+}
+.active {
+    color: #5863F8;
+}
+
+.nav-a::before {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color:#5863F8;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.nav-a:hover::before{
+    width: 100%;
+    color: #5863F8;
+}
+.zetta {
+    margin-left: 139px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.HEADER_2 {
+  max-width: 200px;
+  width: 100%;
+  margin-left: 139px;
+  font-size: 44px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-top: 60px;
+ 
+ 
+}
+.line {
+  width: 1px;
+  height: 19px;
+  background-color: white;
+  margin-left: 16px;
+}
+.HOME-ABOUT{
+  display: flex;
+  margin-top: 14px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+.HOME {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.US {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.ABOUT{
+  font-size: 42PX;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  
+}
+/* end navigation */
+/* start section */
+.next-index-sec {
+  max-width: 1088px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.map {
+max-width: 1088px;
+width: 100%;   
+}
+
+.next-index-sec2{
+max-width: 1088px;
+width: 100%;
+height: 290px;
+margin: 0 auto;
+margin-top: 50px;
+display:flex ; 
+justify-content: space-between;
+
+}
+.text2-h2{
+  font-size: 14px;  
+  font-family: 'Poppins', sans-serif;
+  color: #5863F8;
+  font-weight: 900;
+
+}
+.text2-h1{
+  font-size: 42px;
+  font-weight: 800;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+
+}
+.left {
+max-width: 720px;
+width: 100%;
+height: 288px;
+}
+.text-box {
+max-width: 720px;
+width: 100%;
+height: 288px;
+outline: none;
+font-size: 15px;
+resize: none;
+border-color: #E8E8E8;    
+}
+.right-block{
+max-width: 352px;
+width: 100%;
+}
+.box {
+max-width: 352px;
+width: 100%;
+height: 60px;
+margin-bottom: 16px;
+border-color: #E8E8E8;  
+outline: none;
+}
+.send {
+max-width: 352px;
+width: 100%;
+height: 60px;
+background-color: #5863F8;
+font-size: 14px;
+color: #fff;
+font-family: 'Poppins', sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.plane {
+margin-left: 12px;
+}
+.contact{
+max-width: 1088px;
+width: 100%;
+margin: 0 auto;
+margin-top: 50px;
+}
+.box_rela {
+display: flex;
+
+}
+.back {
+background-color: #5863F8;
+border-radius: 90%;
+width: 59px;
+height: 58px;
+justify-content: center;
+align-items: center;
+display: flex; 
+margin-bottom: 15px;  
+}
+.h2-email {
+color: black;
+font-size: 18px;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+.gmail{
+max-width:362px ;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+}
+.email-span {
+display: block;
+margin-top: 5px;
+line-height: 21px;
+}
+.p-email {
+color: #B1B1B1;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+.texts2 {
+max-width: 595px;
+width: 100%;
+height: 115px;
+}
+
+
+
+
+/* end section */
+/* footer */
+.header_3 {
+  background-image: url(../images/chris-lee-70l1tDAI6rM-unsplash.png);
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 324px;
+  background-repeat: no-repeat;
+  background-size:cover; 
+  margin-top: 90px;
+  
+}
+
+.header_3::after{
+  content: "";
+  background: rgb(0 0 0 / 50%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  height: 614px;
+  width: 100%;
+  z-index: -1;
+}
+.header_3_a {
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 139px;
+  font-family: 'Poppins', sans-serif;
+}
+.header_3_p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5863F8 ;
+}
+.header_3_h{
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 56px;
+  max-width: 376px;
+  width: 100%;
+  color: #fff;
+}
+.all-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+.block{
+  max-width: 260px;
+  width: 100%;
+  height: 260px;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-top: 262px;
+  justify-content: center;
+  text-align: center;
+  
+}
+.hotel-cover {
+  background-color: #5863F8;
+  border-radius: 90%;
+  width: 59px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px auto 15px auto;
+}
+.block-h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+  line-height: 27px;
+  max-width: 188px;
+  width: 100%;
+}
+.block-p {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 21px;
+  max-width: 221px;
+  width: 100%;
+}
+.zarmaco{
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  color: #5863F8;
+  margin-top: 20px;
+  text-align: center;
+
+}
